@@ -13,7 +13,11 @@ namespace AsyncAwait
         static void Main(string[] args)
         {
             Demo();
+
+            TempClass.PrintMessage();
+
             helloworld.hi();
+
             Console.ReadKey();
         }
 
